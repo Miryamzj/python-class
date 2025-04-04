@@ -10,5 +10,5 @@ with open (inputfile,"r") as infile, open(outputfile, "w") as outfile:
         #Manda la salida a un archivo 4_input_no_adapters.txt
         outfile.write(f"{secuencia_limpia}\n")
 
-    #print (secuencia_limpia, file = outfile, end="\n")
+    #print (secuencia_limpia, file = outfile, end="\n") (Esto puede ser una alternativa)
     
