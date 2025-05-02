@@ -1,0 +1,14 @@
+[project]
+name = "analizador"
+version = "0.1.0"
+description = "Paquete para el análisis de secuencias genéticas en FASTA"
+authors = [
+  { name="Tu Nombre", email="tunombre@ejemplo.com" }
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

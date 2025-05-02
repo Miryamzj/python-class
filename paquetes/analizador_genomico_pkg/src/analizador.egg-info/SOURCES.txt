@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/analizador.egg-info/PKG-INFO
+src/analizador.egg-info/SOURCES.txt
+src/analizador.egg-info/dependency_links.txt
+src/analizador.egg-info/top_level.txt
+tests/test_analizador.py

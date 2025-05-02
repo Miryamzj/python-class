@@ -1,0 +1,80 @@
+Metadata-Version: 2.4
+Name: analizador
+Version: 0.1.0
+Summary: Paquete para el análisis de secuencias genéticas en FASTA
+Author: Tu Nombre
+Author-email: Tu Nombre <tunombre@ejemplo.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# 🧬 Analizador Genómico
+
+Este proyecto contiene un **paquete Python** para el análisis de secuencias genéticas almacenadas en archivos en formato FASTA.
+
+---
+
+## 📦 Estructura del paquete
+
+El código fuente está ubicado en el directorio `src/analizador/` e incluye módulos para:
+
+- Lectura de archivos FASTA
+- Validación de secuencias
+- Cálculo de estadísticas (frecuencia de bases y contenido GC)
+- Exportación de resultados en formato tabular (`.tsv`)
+
+---
+
+## ▶️ Cómo ejecutar el análisis
+
+1. Asegúrate de tener Python 3.7 o superior.
+
+2. Instala el paquete localmente (modo editable):
+
+```bash
+pip install -e .
+```
+
+3. Ejecuta el script principal:
+
+```bash
+python analizador.py
+```
+
+Este comando:
+
+- Lee las secuencias desde `data/secuencias.fasta`
+- Calcula frecuencias y contenido GC
+- Guarda los resultados en `salida/resultados.tsv`
+
+---
+
+## 🧪 Pruebas
+
+Puedes ejecutar pruebas desde el directorio raíz:
+
+```bash
+python tests/test_analizador.py
+```
+
+O si tienes `pytest` instalado:
+
+```bash
+pytest tests/
+```
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+analizador_genomico_pkg/
+├── src/
+│   └── analizador/
+├── tests/
+├── data/
+├── salida/
+├── analizador.py
+├── README.md
+├── pyproject.toml
+└── setup.cfg
+```

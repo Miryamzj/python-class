@@ -1,0 +1,10 @@
+>gene1
+ATGCGTACGTAGCT
+>gene2
+TTGACCGTA
+>gene3
+ATGNTGNATGCGCGC  # contiene letras N, debe ser omitida
+>gene4
+ATGCRYGT  # contiene R y Y, también debe ser omitida
+>gene5
+ATGATGATG
