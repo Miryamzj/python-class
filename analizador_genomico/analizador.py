@@ -113,8 +113,11 @@ else:
     else:
         print("[INFO] No se generaron resultados válidos para exportar.")
 
+print (f"__name__ vale: {__name__}")
+
 # --- Pruebas simples con assert para verificar funciones clave ---
 assert contar_bases("ATGC") == {"A": 1, "T": 1, "G": 1, "C": 1}, "Error en contar_bases()"
 assert calcular_gc("ATGC") == 50.0, "Error en calcular_gc()"
 assert validar_secuencia("ATGC") is True, "Error en validar_secuencia() con secuencia válida"
 assert validar_secuencia("ATGN") is False, "Error en validar_secuencia() con caracteres inválidos"
+
