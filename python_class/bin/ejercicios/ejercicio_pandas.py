@@ -8,3 +8,4 @@ data = {
 }    
 df = pd.DataFrame.from_dict(data)
 print (df)
+#Cuáles son los tipos de datos que maneja pandas? 

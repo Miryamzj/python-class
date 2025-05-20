@@ -1,0 +1,7 @@
+##gff-version 3
+NC_000913.3	RefSeq	gene	190	255	.	+	.	ID=gene-b0001;Name=thrL
+NC_000913.3	RefSeq	gene	337	2799	.	+	.	ID=gene-b0002;Name=thrA
+NC_000913.3	RefSeq	gene	2550	4030	.	-	.	ID=gene-b0003;Name=thrB
+NC_000913.3	RefSeq	gene	5000	6000	.	+	.	ID=gene-b0004;Name=yaaX
+NC_000913.3	RefSeq	gene	6300	7100	.	-	.	ID=gene-b0005;Name=yaaY
+NC_000913.3	RefSeq	gene	9000	8500	.	-	.	ID=gene-b0006;Name=malF
