@@ -1,4 +1,5 @@
 import os
+#AVANCE 2 PROYECTO FINAL 
 #Usamos las funciones de los módulos previamente hechos
 from genome import cargar_genoma
 from peaks import leer_archivo_picos, extraer_secuencias
