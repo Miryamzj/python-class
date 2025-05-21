@@ -4,7 +4,8 @@ from peaks import leer_archivo_picos, extraer_secuencias
 from io_utils import guardar_fasta_por_tf
 
 def main():
-    # Rutas relativas desde la carpeta del programa
+    # Rutas relativas desde la carpeta del programa 
+    # Con base_dir y os, ya se construyen rutas relativas al programa, sin importar desde qué carpeta lo ejecute
     base_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(base_dir, "data")
     output_dir = os.path.join(base_dir, "output")

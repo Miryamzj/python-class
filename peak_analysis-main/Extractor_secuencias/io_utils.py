@@ -1,7 +1,7 @@
 import os
 
 def guardar_fasta_por_tf(secuencias_por_tf, output_dir):
-    """Guarda archivos FASTA separados por TF en un directorio de salida."""
+    #Guarda archivos FASTA separados por TF en un directorio de salida.
     os.makedirs(output_dir, exist_ok=True)
 
     for tf, secuencias in secuencias_por_tf.items():

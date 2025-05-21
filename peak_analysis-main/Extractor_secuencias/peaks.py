@@ -1,7 +1,7 @@
 import os
 
 def leer_archivo_picos(peaks_path):
-    #Lee un archivo TSV de picos y devuelve una lista de diccionarios con TF_name, Peak_start y Peak_end."""
+    #Lee el archivo TSV de picos y devuelve una lista de diccionarios con TF_name, Peak_start y Peak_end.
     if not os.path.exists(peaks_path):
         raise FileNotFoundError(f"Archivo de picos no encontrado: {peaks_path}")
 
