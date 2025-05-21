@@ -10,4 +10,5 @@ def guardar_fasta_por_tf(secuencias_por_tf, output_dir):
             for i, sec in enumerate(secuencias):
                 f.write(f">{tf}_peak_{i+1}\n")
                 f.write(f"{sec}\n")
+                #Imprimimos cada archivo generado con su respectivo nombre
         print(f"[INFO] Archivo generado: {filename}")

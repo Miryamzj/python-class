@@ -1,4 +1,5 @@
 import os
+#Usamos las funciones de los módulos previamente hechos
 from genome import cargar_genoma
 from peaks import leer_archivo_picos, extraer_secuencias
 from io_utils import guardar_fasta_por_tf
