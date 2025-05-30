@@ -5,7 +5,7 @@ import argparse
 from genome import cargar_genoma
 from peaks import leer_archivo_picos, extraer_secuencias
 from io_utils import guardar_fasta_por_tf
-
+#Implementamos el uso de argumentos para su ejecución desde terminal
 def parse_args():
     parser = argparse.ArgumentParser(description="Extrae secuencias FASTA para factores de transcripción en E. coli")
     parser.add_argument("--genoma", required=True, help="Ruta al archivo FASTA del genoma")
